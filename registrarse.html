@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li><a href="index.html" style="text-decoration: none; color: black;">Home</a></li>
+            <li><a href="planes.html" style="text-decoration: none; color: black">Planes</a></li>
+            <li><a href="clases.html" style="text-decoration: none; color: black">Clases</a></li>
+            <li><a href="contacto.html" style="text-decoration: none; color: black">Contacto</a></li>
+            <li><a href="registrarse.html" style="text-decoration: none; color: black">Registrarse</a></li>
+            <li><a href="asociarse.html" style="text-decoration: none; color: white;" class="ctr">Asociate</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="fondo">
+            <h1>Registrate para reservar la clase</h1>
+            <form>
+                <label for="dni">DNI:</label>
+                <input type="text" id="dni" name="DNI"><br>
+                <br>
+                <label for="Plan">Seleccioná tu plan:</label><br>
+                <input type="checkbox" id="bronce" name="bronce" value="bronce">
+                <label for="oro"> Membresía Bronce</label><br>
+                <input type="checkbox" id="plata" name="plata" value="plata">
+                <label for="vehicle2">Membresía Plata</label><br>
+                <input type="checkbox" id="oro" name="oro" value="oro">
+                <label for="oro">Membresía Oro</label><br>
+                <input type="checkbox" id="black" name="black" value="black">
+                <label for="black">Membresía Black</label><br>
+                <br>
+                <label for="clase">Elegí la clase:</label><br>
+                <input type="checkbox" id="spinning" name="spinning" value="spinning">
+                <label for="">Spinning</label><br>
+                <input type="checkbox" id="funcional" name="funcional" value="funcional">
+                <label for="funcional">Funcional</label><br>
+                <input type="checkbox" id="yoga" name="yoga" value="yoga">
+                <label>Yoga</label><br>
+                <input type="checkbox" id="musculacion" name="musculacion" value="musculacion">
+                <label for="musculacion">Salón de musculación</label><br>
+                <br>
+                <label for="fecha">Fecha:</label>
+                <input type="datetime-local" id="fecha" name="fecha"><br>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+
+        </div>
+    </main>
+    <footer class="flex-container">
+        <div>
+            <h2>Horarios<br>
+            Lunes a Domingos<br>
+            De 7:00 a 23:00 horas</h2>
+        </div>
+        <div>
+            <h2>Dirección<br>
+            Av. Monroe<br>
+            Belgrano, CABA</h2>
+        </div>
+        <div>
+            <h2>Contacto<br>
+            mail@gmail.com.ar<br>
+            Tel:123456789</h2>
+        </div>
+    </footer>
+</body>
+</html>
